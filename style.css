@@ -1,0 +1,156 @@
+footer ul li
+{
+
+    list-style-type: none;
+
+    display: flex;
+
+}
+
+footer
+{
+background-color: #424242;
+}
+
+@media (max-width: 767px)
+{
+	.ml-2 
+	{
+		display: none;
+	}
+	.sauron
+	{
+		display: none;
+	}
+}
+
+
+/* Gandalf Hover*/
+
+
+
+.card .card-img-top
+{
+	position: relative;
+	opacity: 0.6;
+}
+
+
+/* position du titre et réglage de l'opacité*/
+.card h2
+{
+    margin-top: : 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+    position: absolute;
+    top: 5%;
+    font-size: 1.5em;
+    background-color: #EBE8E8;
+    opacity: 0.8;
+    padding: 5px 8px 5px 20px;
+}
+
+.card .text span
+{
+	color : #F05411;
+}
+
+.card h5
+{
+    margin-top: : 10%;
+    margin-left: 15%;
+    margin-right: 10%;
+    border-radius: 25px;
+    position: absolute;
+    top: 5%;
+    font-size: 1.5em;
+    background-color: #EBE8E8;
+    opacity: 0.8;
+    padding: 5px 8px 5px 20px;
+}
+
+.card .text .gaga1
+{
+    margin-top: : 10%;
+    margin-left: 25%;
+    margin-right: 10%;
+    border-radius: 25px;
+    position: absolute;
+    top: 5%;
+    font-size: 1.5em;
+    background-color: #EBE8E8;
+    opacity: 0.8;
+    padding: 5px 8px 5px 20px;
+}
+
+
+
+.card .text .gandalf
+{
+	color : white;
+    margin-top: : 10%;
+    margin-left: 35%;
+    margin-right: 10%;
+    position: absolute;
+    top: 70%;
+    font-size: 1.5em;
+}
+
+.card:hover .card-img-top
+{
+    opacity: 1;
+}
+
+.card:hover .text .gandalf
+{
+	font-size: 3em;
+	position: absolute;
+	margin-left: 20%;
+	top: 40%;
+}
+
+.card:hover .text .gaga1
+{
+	display: none;
+}
+
+.card .text .hobbit
+{
+    margin-top: : 10%;
+    margin-left: 25%;
+    margin-right: 10%;
+    border-radius: 25px;
+    position: absolute;
+    top: 5%;
+    font-size: 1.5em;
+    background-color: #EBE8E8;
+    opacity: 0.8;
+    padding: 5px 8px 5px 20px;
+}
+
+.card .text .dead
+{
+	color : white;
+    margin-top: : 10%;
+    margin-left: 35%;
+    margin-right: 10%;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5em;
+}
+
+.card:hover .text .dead
+{
+    margin-top: : 40%;
+    margin-left: 15%;
+    margin-right: 10%;
+    border-radius: 25px;
+    position: absolute;
+    top: 30%;
+    font-size: 4em;
+    background-color: #EBE8E8;
+    opacity: 0.8;
+    padding: 5px 8px 5px 20px;
+    color: black;
+}
